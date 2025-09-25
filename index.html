@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-app">
+    <div id="date"></div> 
+    <h1>🌤 Weather Forecast</h1>
+    
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button onclick="getWeather()">Search</button>
+    </div>
+
+    <div id="weatherResult" class="weather-result"></div>
+  </div>
+  <select id="bgSelector" class="bg-selector">
+  <option value="default">🌤 Default</option>
+  <option value="day">☀️ Sunny Day</option>
+  <option value="night">🌙 Night Sky</option>
+  <option value="cloud">☁️ Cloudy</option>
+  <h1 class="title">Weather Forecast App</h1>
+
+
+
+</select>
+
+  <script src="script.js"></script>
+</body>
+</html>
